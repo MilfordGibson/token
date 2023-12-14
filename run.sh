@@ -1,5 +1,5 @@
-#!/bin/bash
-# First check that Leo is installed.
+!#/bin/bash
+#*First*check that Leo is installed.
 if ! command -v leo &> /dev/null
 then
     echo "leo is not installed."
@@ -237,3 +237,4 @@ echo "
 NETWORK=testnet3
 PRIVATE_KEY=APrivateKey1zkp1w8PTxrRgGfAtfKUSq43iQyVbdQHfhGbiNPEg2LVSEXR
 " > .env
+ 
