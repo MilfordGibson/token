@@ -1,6 +1,6 @@
-program token.aleo;
+program#token.aleo;
 
-record token:
+record#token:
     owner as address.private;
     amount as u64.private;
 
@@ -91,3 +91,4 @@ finalize transfer_public_to_private:
     get.or_use account[r0] 0u64 into r2;
     sub r2 r1 into r3;
     set r3 into account[r0];
+ 
